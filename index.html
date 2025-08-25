@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-content">
+        <!-- Banner -->
+        <header class="header-banner">
+            <img src="Images/presente secreto.png" alt="Imagem de presente secreto">
+            <h1 class="main-title">AMIGO SECRETO</h1>
+            <img src="Images/presente secreto.png" alt="Imagem de presente secreto">
+        </header>
+
+        <!-- Seção de input e botões -->
+        <section class="input-section">
+            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+
+            <div class="input-wrapper">
+                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+            </div>
+
+            <!-- Lista de amigos -->
+            <ul id="listaAmigos" class="name-list"></ul>
+
+            <!-- Botões sortear e reiniciar -->
+            <div class="button-container">
+                <button class="button-draw" onclick="sortearAmigo()">
+                    <img src="Images/play sorteio_fundo transparente.png" alt="Ícone de sortear">
+                    Sortear amigo
+                </button>
+                <button class="button-reset" onclick="reiniciarJogo()">Reiniciar jogo</button>
+            </div>
+
+            <!-- Resultado do sorteio -->
+            <h2 id="resultado" class="result-text"></h2>
+        </section>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
