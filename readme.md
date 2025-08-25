@@ -13,10 +13,11 @@ Projeto simples para adicionar nomes em uma lista e sortear um vencedor aleatór
 ---
 
 ## Tecnologias usadas
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ---
+
 
 Feito por **Raiane V. Albuquerque**
